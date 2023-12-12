@@ -2,12 +2,17 @@ const cartSection=document.querySelector("#cart-section")
 
 let cartItems=JSON.parse(localStorage.getItem("cart"))
 console.log(cartItems)
-
+//filtering the null values
+cartItems = cartItems.filter((item) => item !== null);
 //function for calculating total price------------------------------->
 function calculateTotal(){
     let totalPrice=0
  cartItems.map((item) => {
+  //conditions to check null values
+  if(item !== null){
     totalPrice+= item.price
+  }
+    
    
 });
 let currentUser=JSON.parse(localStorage.getItem("currentUser"))
