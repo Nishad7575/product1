@@ -37,9 +37,9 @@ if(temp){
 fetchAPI("https://fakestoreapi.com/products");
 async function fetchAPI(url) {
   try {
-    let data = await fetch(url);
-    console.log(data);
-    response = await data.json();
+    // let data = await fetch(url);
+    // console.log(data);
+    // response = await data.json();
     console.log(response);
  const staticItems = [
       {
@@ -48,7 +48,7 @@ async function fetchAPI(url) {
         "price": 160,
         "description": "used for decoration",
         "category": "handcrafted",
-        "image": "./images/torans.jpg",
+        "image": "../images/torans.jpg",
         "rating": {
           "rate": 3.9,
           "count": 100
@@ -60,7 +60,7 @@ async function fetchAPI(url) {
         "price": 150,
         "description": "used for decoration",
         "category": "Handcrafted",
-        "image": "./images/pot.jpg",
+        "image": "../images/pot.jpg",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -72,7 +72,7 @@ async function fetchAPI(url) {
         "price": 1500,
         "description": "wedding Gift",
         "category": "Handcrafted",
-        "image": "./images/gift.jpg",
+        "image": "../images/gift.jpg",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -84,7 +84,7 @@ async function fetchAPI(url) {
         "price": 600,
         "description": "kids toys",
         "category": "Handcrafted",
-        "image": "./images/toy.jpg",
+        "image": "../images/toy.jpg",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -96,7 +96,7 @@ async function fetchAPI(url) {
         "price": 450,
         "description": "Decoration",
         "category": "Handcrafted",
-        "image": "./images/fpot.jpg",
+        "image": "../images/fpot.jpg",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -108,7 +108,7 @@ async function fetchAPI(url) {
         "price": 3560,
         "description": "",
         "category": "Handcrafted",
-        "image": "./images/stool.jpg",
+        "image": "../images/stool.jpg",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -120,7 +120,7 @@ async function fetchAPI(url) {
         "price": 890,
         "description": " to see face",
         "category": "Handcrafted",
-        "image": "./images/macrame.webp",
+        "image": "../images/macrame.webp",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -132,7 +132,7 @@ async function fetchAPI(url) {
         "price": 200,
         "description": "eco-friendly ",
         "category": "Handcrafted",
-        "image": "./images/lamp.webp",
+        "image": "../images/lamp.webp",
         "rating": {
           "rate": 4.1,
           "count": 259
@@ -143,7 +143,7 @@ async function fetchAPI(url) {
     //   return item.category == "men's clothing";
     // });
     // console.log(men);
-men=staticItems ;
+    men=  staticItems ;
     // jewelery = response.filter((item) => {
     //   return item.category == "jewelery";
     // });
@@ -155,7 +155,7 @@ men=staticItems ;
     "price": 155,
     "description": "beauty product",
     "category": "jewelery",
-    "image": "./images/necklace.jpg",
+    "image": "../images/necklace.jpg",
     "rating": {
       "rate": 3.9,
       "count": 100
@@ -167,7 +167,7 @@ men=staticItems ;
     "price": 160,
     "description": "beauty product",
     "category":"jewelery",
-    "image": "./images/456.webp",
+    "image": "../images/456.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -179,7 +179,7 @@ men=staticItems ;
     "price": 500,
     "description": "beauty product",
     "category": "jewelery",
-    "image": "./images/c.jpg",
+    "image": "../images/c.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -191,7 +191,7 @@ men=staticItems ;
     "price": 120,
     "description": "beauty product",
     "category": "jewelery",
-    "image": "./images/earing.jpg",
+    "image": "../images/earing.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -203,7 +203,7 @@ men=staticItems ;
     "price": 70,
     "description": "beauty product",
     "category": "jewelery",
-    "image": "./images/Anklet.webp",
+    "image": "../images/Anklet.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -215,7 +215,7 @@ men=staticItems ;
     "price":700 ,
     "description": "beauty product",
     "category": "jewelery",
-    "image": "./images/nset.webp",
+    "image": "../images/nset.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -227,7 +227,7 @@ men=staticItems ;
     "price": 220,
     "description": " beauty product",
     "category": "jewelery",
-    "image": "./images/pearl.webp",
+    "image": "../images/pearl.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -239,7 +239,7 @@ men=staticItems ;
     "price": 100,
     "description": "Beauty product",
     "category": "jewelery",
-    "image": "./images/rose.webp",
+    "image": "../images/rose.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -259,7 +259,7 @@ const staticItems3 = [ {
     "price": 1350,
     "description": "cloths ",
     "category": "clothing",
-    "image": "./images/sweater.jpg",
+    "image": "../images/sweater.jpg",
     "rating": {
       "rate": 3.9,
       "count": 100
@@ -271,7 +271,7 @@ const staticItems3 = [ {
     "price": 880,
     "description": "sandal",
     "category":"footwear",
-    "image": "./images/xxx.jpg",
+    "image": "../images/xxx.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -283,7 +283,7 @@ const staticItems3 = [ {
     "price": 2000,
     "description": "cloths",
     "category": "cloths",
-    "image": "./images/AA.webp",
+    "image": "../images/AA.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -295,7 +295,7 @@ const staticItems3 = [ {
     "price":900 ,
     "description": "cloths",
     "category": "cloths",
-    "image": "./images/LLL.webp",
+    "image": "../images/LLL.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -307,7 +307,7 @@ const staticItems3 = [ {
     "price": 555,
     "description": "clothing",
     "category": "cloths",
-    "image": "./images/mkurta.webp",
+    "image": "../images/mkurta.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -319,7 +319,7 @@ const staticItems3 = [ {
     "price":2500,
     "description": "footwaer",
     "category": "clothing",
-    "image": "./images/mjuti.webp",
+    "image": "../images/mjuti.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -331,7 +331,7 @@ const staticItems3 = [ {
     "price":2500,
     "description": "watch",
     "category": "watch",
-    "image": "./images/watch.jpg",
+    "image": "../images/watch.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -343,7 +343,7 @@ const staticItems3 = [ {
     "price":5000,
     "description": "700",
     "category": "cloths",
-    "image": "./images/shirt.jpg",
+    "image": "../images/shirt.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -363,7 +363,7 @@ electronics=staticItems3 ;
     "price": 150,
     "description": " food",
     "category": "food product",
-    "image": "./images/aata.jpg",
+    "image": "../images/aata.jpg",
     "rating": {
       "rate": 3.9,
       "count": 100
@@ -375,7 +375,7 @@ electronics=staticItems3 ;
     "price": 1200,
     "description": "food",
     "category":"food product",
-    "image": "./images/ghee.webp",
+    "image": "../images/ghee.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -387,7 +387,7 @@ electronics=staticItems3 ;
     "price": 200,
     "description": "food",
     "category": "food product",
-    "image": "./images/Honey.jpg",
+    "image": "../images/Honey.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -399,7 +399,7 @@ electronics=staticItems3 ;
     "price":7860 ,
     "description": "food",
     "category": "food product",
-    "image": "./images/spices.jpg",
+    "image": "../images/spices.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -411,7 +411,7 @@ electronics=staticItems3 ;
     "price":456 ,
     "description": "food",
     "category": "food product",
-    "image": "./images/makhana.jpg",
+    "image": "../images/makhana.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -423,7 +423,7 @@ electronics=staticItems3 ;
     "price": 135,
     "description": "food",
     "category": "food product",
-    "image": "./images/tea.jpg",
+    "image": "../images/tea.jpg",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -435,7 +435,7 @@ electronics=staticItems3 ;
     "price":678 ,
     "description": "food products",
     "category": "food",
-    "image": "./images/sweets.webp",
+    "image": "../images/sweets.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -447,7 +447,7 @@ electronics=staticItems3 ;
     "price":4000,
     "description": "food",
     "category": "food products",
-    "image": "./images/dryfruits.webp",
+    "image": "../images/dryfruits.webp",
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -455,7 +455,8 @@ electronics=staticItems3 ;
   },
 ];
 women=staticItems4 ;
-        
+       response = [...staticItems,...staticItems2, ...staticItems3,...staticItems4];
+       console.log("response = ",response) 
     showAll();
   } catch (error) {
     console.log("error-msg" + error);
@@ -464,12 +465,15 @@ women=staticItems4 ;
 
 //add to cart function-------------------------------------------------------------------------------------->
 function addToCart(itemId) {
+  console.log("item.id ", itemId)
   let temp = response.filter((item) => {
     return item.id == itemId;
   });
   
   myCartArray.push(temp[0]);
+  console.log("myCartarray == ",myCartArray)
   localStorage.setItem("cart", JSON.stringify(myCartArray));
+  alert("Item added to cart!")
 }
 
 //allFilter function---------------------------------------------------------------------------------------->
